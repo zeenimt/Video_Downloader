@@ -14,7 +14,7 @@ from tkinter import *
 
 # Define paths for the output and assets
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"./build/assets/frame0")
+ASSETS_PATH = OUTPUT_PATH / "build/assets/frame0"
 
 # Function to get the path relative to the assets directory
 def relative_to_assets(path: str) -> Path:
